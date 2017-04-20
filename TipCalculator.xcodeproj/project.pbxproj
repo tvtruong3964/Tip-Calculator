@@ -15,6 +15,7 @@
 		5B4535C81EA521B20092F609 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4535C71EA521B20092F609 /* TipCalculatorTests.swift */; };
 		5B4535D31EA521B20092F609 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4535D21EA521B20092F609 /* TipCalculatorUITests.swift */; };
 		5B787F1E1EA5B13200448DC1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B787F1D1EA5B13200448DC1 /* SettingsViewController.swift */; };
+		5BBAA0271EA88C32005E96D8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAA0261EA88C32005E96D8 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5B4535D21EA521B20092F609 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		5B4535D41EA521B20092F609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B787F1D1EA5B13200448DC1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5BBAA0261EA88C32005E96D8 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				5B4535B21EA521B20092F609 /* AppDelegate.swift */,
 				5B4535B41EA521B20092F609 /* TipCalculatorViewController.swift */,
+				5BBAA0261EA88C32005E96D8 /* DataModel.swift */,
 				5B787F1D1EA5B13200448DC1 /* SettingsViewController.swift */,
 				5B4535B61EA521B20092F609 /* Main.storyboard */,
 				5B4535B91EA521B20092F609 /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4535B51EA521B20092F609 /* TipCalculatorViewController.swift in Sources */,
+				5BBAA0271EA88C32005E96D8 /* DataModel.swift in Sources */,
 				5B4535B31EA521B20092F609 /* AppDelegate.swift in Sources */,
 				5B787F1E1EA5B13200448DC1 /* SettingsViewController.swift in Sources */,
 			);

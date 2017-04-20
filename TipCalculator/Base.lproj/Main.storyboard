@@ -43,7 +43,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LPE-UN-dm1">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LPE-UN-dm1">
                                         <rect key="frame" x="130.5" y="0.0" width="169.5" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -74,8 +74,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lQd-Gp-CIc">
-                                <rect key="frame" x="10" y="308.5" width="300" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lQd-Gp-CIc">
+                                <rect key="frame" x="10" y="287" width="297" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="15%"/>
                                     <segment title="20%"/>
@@ -85,6 +86,16 @@
                                     <action selector="calculatorTip" destination="BYZ-38-t0r" eventType="valueChanged" id="hew-sJ-WwY"/>
                                 </connections>
                             </segmentedControl>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Vdr-PH-HDB">
+                                <rect key="frame" x="11" y="335" width="298" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="0.23727818949999999" green="0.87228074310000003" blue="0.17184070300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" red="0.88235294119999996" green="0.34509803919999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" red="1" green="0.95214901919999995" blue="0.35291129719999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="test" destination="BYZ-38-t0r" eventType="valueChanged" id="Dpi-d5-cG5"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -94,17 +105,14 @@
                             <constraint firstItem="fPc-IZ-X7T" firstAttribute="top" secondItem="KG1-eo-CKG" secondAttribute="bottom" constant="32" id="DCM-dB-UmF"/>
                             <constraint firstItem="bdO-HY-lcF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="FjR-NK-xMI"/>
                             <constraint firstItem="1gf-sP-3Ze" firstAttribute="top" secondItem="LPE-UN-dm1" secondAttribute="bottom" constant="31" id="JTF-iX-6Fx"/>
-                            <constraint firstAttribute="trailing" secondItem="lQd-Gp-CIc" secondAttribute="trailing" constant="10" id="KBq-v6-XvY"/>
                             <constraint firstItem="LPE-UN-dm1" firstAttribute="trailing" secondItem="1gf-sP-3Ze" secondAttribute="trailing" id="Mb4-wm-HtC"/>
                             <constraint firstItem="AIk-Y7-HIU" firstAttribute="leading" secondItem="Duj-CO-jan" secondAttribute="leading" id="Mki-yI-9gE"/>
                             <constraint firstItem="1gf-sP-3Ze" firstAttribute="trailing" secondItem="FUj-ab-SbK" secondAttribute="trailing" id="NMI-ox-ot3"/>
                             <constraint firstAttribute="trailing" secondItem="bdO-HY-lcF" secondAttribute="trailing" constant="10" id="OaJ-8q-giF"/>
                             <constraint firstItem="LPE-UN-dm1" firstAttribute="leading" secondItem="1gf-sP-3Ze" secondAttribute="leading" id="Ykk-G7-red"/>
-                            <constraint firstItem="lQd-Gp-CIc" firstAttribute="top" secondItem="FUj-ab-SbK" secondAttribute="bottom" constant="36" id="blz-pJ-dlZ"/>
                             <constraint firstItem="1gf-sP-3Ze" firstAttribute="leading" secondItem="FUj-ab-SbK" secondAttribute="leading" id="cAd-ik-Zzl"/>
                             <constraint firstItem="FUj-ab-SbK" firstAttribute="top" secondItem="AIk-Y7-HIU" secondAttribute="bottom" constant="23" id="d1s-1A-fCl"/>
                             <constraint firstItem="AIk-Y7-HIU" firstAttribute="top" secondItem="1gf-sP-3Ze" secondAttribute="bottom" constant="27.5" id="gBX-mQ-Bps"/>
-                            <constraint firstItem="lQd-Gp-CIc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="gFa-MI-EQ8"/>
                             <constraint firstItem="Duj-CO-jan" firstAttribute="top" secondItem="AIk-Y7-HIU" secondAttribute="bottom" constant="22.5" id="gO6-ge-vP7"/>
                             <constraint firstItem="bdO-HY-lcF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="jtq-Yt-EAV"/>
                             <constraint firstItem="KG1-eo-CKG" firstAttribute="leading" secondItem="fPc-IZ-X7T" secondAttribute="leading" id="qXh-cb-CYh"/>
@@ -116,12 +124,13 @@
                     <navigationItem key="navigationItem" title="Tip Calculator" id="Fli-8m-wmb">
                         <barButtonItem key="rightBarButtonItem" title="Setting" id="wen-a9-Sl1">
                             <connections>
-                                <segue destination="I93-Ru-pTz" kind="presentation" id="GZb-Eh-FiJ"/>
+                                <segue destination="I93-Ru-pTz" kind="presentation" identifier="ShowSetting" id="GZb-Eh-FiJ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="billingText" destination="LPE-UN-dm1" id="Ffx-lG-c4b"/>
+                        <outlet property="splitSlider" destination="Vdr-PH-HDB" id="cnz-iu-AJf"/>
                         <outlet property="tipLabel" destination="1gf-sP-3Ze" id="esC-ut-Z1e"/>
                         <outlet property="tipSegment" destination="lQd-Gp-CIc" id="CWY-Ja-KGm"/>
                         <outlet property="totalLabel" destination="FUj-ab-SbK" id="1t2-kQ-wyt"/>
@@ -134,7 +143,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1111.2" y="121.88905547226388"/>
+            <point key="canvasLocation" x="1110" y="121.47887323943662"/>
         </scene>
         <!--Setting-->
         <scene sceneID="E6g-g7-aV1">
@@ -149,13 +158,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose percentage to configure the default tip percentage." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1y-Gr-uaK">
-                                <rect key="frame" x="16" y="94" width="288" height="41"/>
+                                <rect key="frame" x="16" y="94" width="288" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HJy-98-Jv2">
-                                <rect key="frame" x="16" y="169" width="288" height="29"/>
+                                <rect key="frame" x="16" y="148.5" width="288" height="29"/>
                                 <segments>
                                     <segment title="15%"/>
                                     <segment title="20%"/>

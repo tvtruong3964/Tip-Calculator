@@ -12,15 +12,16 @@ class SettingsViewController: UIViewController {
 
     @IBOutlet weak var settingSegment: UISegmentedControl!
     
-    let dictionary: [String: Any] = ["ValueDefault": 0]
-    var indexSegmentDefault = 0
+    var dataModel: DataModel!
+
+    
     
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        UserDefaults.standard.register(defaults: dictionary)
         
-        indexSegmentDefault = UserDefaults.standard.integer(forKey: "ValueDefault")
+        
+        let indexSegmentDefault = dataModel.indexOfSegment
         
         switch indexSegmentDefault {
         case 0...2:
@@ -47,7 +48,7 @@ class SettingsViewController: UIViewController {
     
     @IBAction func configureTheDefaultTip() {
         //print("selectSegementIndex is: \(settingSegment.selectedSegmentIndex)")
-        UserDefaults.standard.set(settingSegment.selectedSegmentIndex, forKey: "ValueDefault")
+        dataModel.indexOfSegment =  settingSegment.selectedSegmentIndex
     }
 
     /*
