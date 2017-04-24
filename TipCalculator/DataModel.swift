@@ -11,17 +11,26 @@ import UIKit
 class DataModel {
     var isLoadBillingAmount = false
     
-    var indexOfSegment: Int {
+    var tipPercent: Float {
         get {
-            return UserDefaults.standard.integer(forKey: "IndexOfSegment")
+            return UserDefaults.standard.float(forKey: "TipPercent")
         } set {
-            UserDefaults.standard.set(newValue, forKey: "IndexOfSegment")
+            UserDefaults.standard.set(newValue, forKey: "TipPercent")
             UserDefaults.standard.synchronize()
         }
     }
-    var billingAmount: Double {
+    
+    var split: Float {
         get {
-            return UserDefaults.standard.double(forKey: "BillingAmount")
+            return UserDefaults.standard.float(forKey: "Split")
+        } set {
+            UserDefaults.standard.set(newValue, forKey: "Split")
+            UserDefaults.standard.synchronize()
+        }
+    }
+    var billingAmount: Float {
+        get {
+            return UserDefaults.standard.float(forKey: "BillingAmount")
         } set {
             UserDefaults.standard.set(newValue, forKey: "BillingAmount")
             UserDefaults.standard.synchronize()
@@ -37,6 +46,16 @@ class DataModel {
         }
         
     }
+    
+    
+    var indexTheme: Int {
+        get {
+            return UserDefaults.standard.integer(forKey: "IndexTheme")
+        } set {
+            UserDefaults.standard.set(newValue, forKey: "IndexTheme")
+            UserDefaults.standard.synchronize()
+        }
+    }
 
     
     init() {
@@ -44,7 +63,7 @@ class DataModel {
     }
     
     func registerDefaults() {
-        let dictionary: [String: Any] = ["IndexOfSegment": 0, "BillingAmount": 0.00, "PreviousTime": 0]
+        let dictionary: [String: Any] = ["TipPercent": 5, "BillingAmount": 0.00, "PreviousTime": 0, "Split": 1, "IndexTheme": 0]
         UserDefaults.standard.register(defaults: dictionary)
     }
 

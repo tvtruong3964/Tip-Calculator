@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "1"; ObjectID = "1Wd-EP-en4"; */
+"1Wd-EP-en4.text" = "1";
+
+/* Class = "UILabel"; text = "$0"; ObjectID = "1gf-sP-3Ze"; */
+"1gf-sP-3Ze.text" = "$0";
+
+/* Class = "UILabel"; text = "Dark"; ObjectID = "5zB-kL-B0r"; */
+"5zB-kL-B0r.text" = "Tối";
+
+/* Class = "UILabel"; text = "Split"; ObjectID = "6ko-Qv-CGG"; */
+"6ko-Qv-CGG.text" = "Số người";
+
+/* Class = "UILabel"; text = "Tip %"; ObjectID = "9Ab-Kn-wAF"; */
+"9Ab-Kn-wAF.text" = "Tip %";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "Duj-CO-jan"; */
+"Duj-CO-jan.text" = "Tổng";
+
+/* Class = "UILabel"; text = "$0"; ObjectID = "FUj-ab-SbK"; */
+"FUj-ab-SbK.text" = "$0";
+
+/* Class = "UINavigationItem"; title = "Tip Calculator"; ObjectID = "Fli-8m-wmb"; */
+"Fli-8m-wmb.title" = "Tính Tiền Tip";
+
+/* Class = "UILabel"; text = "5 %"; ObjectID = "K4L-nu-bN7"; */
+"K4L-nu-bN7.text" = "5 %";
+
+/* Class = "UILabel"; text = "Billing Amount"; ObjectID = "KG1-eo-CKG"; */
+"KG1-eo-CKG.text" = "Số Tiền";
+
+/* Class = "UILabel"; text = "Default"; ObjectID = "KLP-rG-i0c"; */
+"KLP-rG-i0c.text" = "Mặc Định";
+
+/* Class = "UILabel"; text = "Split"; ObjectID = "Rih-ec-VG8"; */
+"Rih-ec-VG8.text" = "Người";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "YG2-GJ-B5F"; */
+"YG2-GJ-B5F.text" = "1";
+
+/* Class = "UILabel"; text = "Light"; ObjectID = "avS-zG-iCv"; */
+"avS-zG-iCv.text" = "Sáng";
+
+/* Class = "UINavigationItem"; title = "Setting"; ObjectID = "dIJ-Nt-c8I"; */
+"dIJ-Nt-c8I.title" = "Cài Đặt";
+
+/* Class = "UILabel"; text = "5 %"; ObjectID = "drX-v1-tIg"; */
+"drX-v1-tIg.text" = "5 %";
+
+/* Class = "UILabel"; text = "Tip"; ObjectID = "fPc-IZ-X7T"; */
+"fPc-IZ-X7T.text" = "Tip";
+
+/* Class = "UILabel"; text = "$0"; ObjectID = "gGQ-Jq-UPz"; */
+"gGQ-Jq-UPz.text" = "$0";
+
+/* Class = "UITableViewSection"; headerTitle = "set default"; ObjectID = "jgM-AL-hzY"; */
+"jgM-AL-hzY.headerTitle" = "Cài Đặt Mặc Định";
+
+/* Class = "UILabel"; text = "Tip %"; ObjectID = "nu4-Oc-99H"; */
+"nu4-Oc-99H.text" = "Tip %";
+
+/* Class = "UITableViewSection"; headerTitle = "Them"; ObjectID = "oFi-yo-me7"; */
+"oFi-yo-me7.headerTitle" = "Giao diện";
+
+/* Class = "UILabel"; text = "Split Total"; ObjectID = "wVS-Bc-dmX"; */
+"wVS-Bc-dmX.text" = "Tiền/Người";
+
+/* Class = "UIBarButtonItem"; title = "Setting"; ObjectID = "wen-a9-Sl1"; */
+"wen-a9-Sl1.title" = "Cài Đặt";

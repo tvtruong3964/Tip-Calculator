@@ -14,7 +14,9 @@
 		5B4535BD1EA521B20092F609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4535BB1EA521B20092F609 /* LaunchScreen.storyboard */; };
 		5B4535C81EA521B20092F609 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4535C71EA521B20092F609 /* TipCalculatorTests.swift */; };
 		5B4535D31EA521B20092F609 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4535D21EA521B20092F609 /* TipCalculatorUITests.swift */; };
-		5B787F1E1EA5B13200448DC1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B787F1D1EA5B13200448DC1 /* SettingsViewController.swift */; };
+		5B4FB2031EADABAD00F8ECF9 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FB2021EADABAD00F8ECF9 /* HudView.swift */; };
+		5B78E5A91EA9EE9B007C0F70 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78E5A81EA9EE9B007C0F70 /* SettingTableViewController.swift */; };
+		5B78E5AB1EAA0055007C0F70 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78E5AA1EAA0055007C0F70 /* Theme.swift */; };
 		5BBAA0271EA88C32005E96D8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAA0261EA88C32005E96D8 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +51,10 @@
 		5B4535CE1EA521B20092F609 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4535D21EA521B20092F609 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		5B4535D41EA521B20092F609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B787F1D1EA5B13200448DC1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5B4FB2021EADABAD00F8ECF9 /* HudView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
+		5B4FB2041EADBC1F00F8ECF9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		5B78E5A81EA9EE9B007C0F70 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		5B78E5AA1EAA0055007C0F70 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		5BBAA0261EA88C32005E96D8 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,13 +107,15 @@
 			isa = PBXGroup;
 			children = (
 				5B4535B21EA521B20092F609 /* AppDelegate.swift */,
-				5B4535B41EA521B20092F609 /* TipCalculatorViewController.swift */,
-				5BBAA0261EA88C32005E96D8 /* DataModel.swift */,
-				5B787F1D1EA5B13200448DC1 /* SettingsViewController.swift */,
-				5B4535B61EA521B20092F609 /* Main.storyboard */,
 				5B4535B91EA521B20092F609 /* Assets.xcassets */,
-				5B4535BB1EA521B20092F609 /* LaunchScreen.storyboard */,
+				5BBAA0261EA88C32005E96D8 /* DataModel.swift */,
 				5B4535BE1EA521B20092F609 /* Info.plist */,
+				5B4535BB1EA521B20092F609 /* LaunchScreen.storyboard */,
+				5B4535B61EA521B20092F609 /* Main.storyboard */,
+				5B78E5A81EA9EE9B007C0F70 /* SettingTableViewController.swift */,
+				5B78E5AA1EAA0055007C0F70 /* Theme.swift */,
+				5B4535B41EA521B20092F609 /* TipCalculatorViewController.swift */,
+				5B4FB2021EADABAD00F8ECF9 /* HudView.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -269,9 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4535B51EA521B20092F609 /* TipCalculatorViewController.swift in Sources */,
+				5B78E5AB1EAA0055007C0F70 /* Theme.swift in Sources */,
+				5B4FB2031EADABAD00F8ECF9 /* HudView.swift in Sources */,
 				5BBAA0271EA88C32005E96D8 /* DataModel.swift in Sources */,
 				5B4535B31EA521B20092F609 /* AppDelegate.swift in Sources */,
-				5B787F1E1EA5B13200448DC1 /* SettingsViewController.swift in Sources */,
+				5B78E5A91EA9EE9B007C0F70 /* SettingTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +320,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5B4535B71EA521B20092F609 /* Base */,
+				5B4FB2041EADBC1F00F8ECF9 /* vi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -330,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -381,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
