@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://4.bp.blogspot.com/-qs2ONmi3GN8/WP24nf5D3tI/AAAAAAAAApw/FPadIZrPSl41F3CGrAjQa0CVjhqb_8PzQCK4B/s400/TipCalculator.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://4.bp.blogspot.com/-ddxmfHPj--U/WP6yQ8m4_LI/AAAAAAAAAqA/-qls4rYZ_Yg9C9N60EIWsXKjU9i9_GLGACK4B/s640/TipCalculator_IOS.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
